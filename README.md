@@ -13,7 +13,8 @@
 
 * *querySelectorAll("selector")* is select **NodeList** (static) of CSS selector and returns all elements matching a CSS selector. Static, does not update automatically.
 
---
+
+-
 
 ### 2. How do you create and insert a new element into the DOM?
 
@@ -25,7 +26,8 @@
 
 3. Finally Insert it into DOM: appendChild
 
---
+
+-
 
 ### 3. What is Event Bubbling and how does it work?
 
@@ -33,7 +35,8 @@
 
 Event bubbling in JavaScript is a mechanism where an event triggered on a child element propagates upward through its ancestors in the DOM. It allows parent elements to respond to events triggered by their child elements.
 
---
+
+-
 
 ### 4. What is Event Delegation in JavaScript? Why is it useful?
 
@@ -41,7 +44,8 @@ Event bubbling in JavaScript is a mechanism where an event triggered on a child 
 
 Event Delegation is basically a pattern to handle events efficiently. Instead of adding an event listener to each and every similar element, we can add an event listener to a parent element and call an event on a particular target using the *.target* property of the event object.
 
---
+
+-
 
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
 
