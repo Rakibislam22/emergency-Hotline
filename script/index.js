@@ -54,5 +54,10 @@ for(c of call){
     
 }
 
+//Clear Button
 
+document.getElementById("clear").addEventListener('click',function(){
+
+    document.getElementById("history").innerText = "";
+})
     
