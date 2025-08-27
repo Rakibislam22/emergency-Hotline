@@ -61,3 +61,26 @@ document.getElementById("clear").addEventListener('click',function(){
     document.getElementById("history").innerText = "";
 })
     
+// copy to clipboard
+
+const copy = document.getElementsByClassName("copy");
+
+for(cop of copy){
+    cop.addEventListener('click',function(){
+        const cl = document.getElementById("cpn");
+        let cl2 = parseInt(cl.innerText);
+        cl2 += 1;
+        cl.innerText = cl2;
+
+        const pn = this.parentNode
+        const name = pn.getElementsByClassName("num");
+
+        navigator.clipboard.writeText(name[1].innerText);
+
+        alert("Copied: " + name[1].innerText)
+
+    })
+}
+
+
+// I really Enjoy this..... I Love Programming ❤️
